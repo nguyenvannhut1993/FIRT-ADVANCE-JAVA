@@ -42,6 +42,7 @@ public class Superlation_equaton_JUnitTest {
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
     //
+    // test the operation of function 
     @Test
     public void Test1(){
     double ex =-1;
@@ -50,6 +51,7 @@ public class Superlation_equaton_JUnitTest {
     double ac = bai.executeEquation();
     assertEquals(ex, ac,0);
 }
+ // test the operation of function 
     @Test
     public void Test2(){
     double ex =-2;
@@ -66,6 +68,7 @@ public class Superlation_equaton_JUnitTest {
     double ac = bai.executeEquation();
     assertEquals(ex, ac,0);
 }
+ // test the operation of function 
     @Test
     public void Test4(){
     double ex =2;
@@ -74,6 +77,7 @@ public class Superlation_equaton_JUnitTest {
     double ac = bai.executeEquation();
     assertEquals(ex, ac,0);
     }
+     // test the operation of function 
     @Test
     public void Test5(){
     double ex =-1;
