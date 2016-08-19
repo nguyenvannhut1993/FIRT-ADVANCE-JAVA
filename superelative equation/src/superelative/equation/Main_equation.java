@@ -16,14 +16,15 @@ import java.io.InputStreamReader;
 public class Main_equation {
 
     public static void main(String[] args) throws IOException {
-        superlative_equation ex = new superlative_equation();
+        try {
+        superlative_equation ex = new superlative_equation(); // create new class 
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter value A:");
         int a = Integer.parseInt(input.readLine());
         System.out.println("Enter value B:");
         int b = Integer.parseInt(input.readLine());
-        ex.setA(a);
-        ex.setB(b);
+        ex.setA(a); // call function setA
+        ex.setB(b); // call function setB
         double value_Ex;
         if (ex.executeEquation() == Double.MAX_VALUE) {
             System.out.println(" amost root");
@@ -33,6 +34,11 @@ public class Main_equation {
             value_Ex = ex.executeEquation();
             System.out.println(" the root of superlative equation:" + value_Ex);
         }
+        }
+        catch(NumberFormatException | ArithmeticException e){
+            System.out.println("Error:"+e.getMessage());
+        }
+        
     }
 
 }
