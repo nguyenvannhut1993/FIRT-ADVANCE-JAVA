@@ -1,0 +1,16 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package task15_part2;
+
+/**
+ *
+ * @author Nguyen Van Nhut
+ */
+public abstract class Instrument {
+    String nameInstru;
+    String publisher;
+    public abstract String plays();
+}
