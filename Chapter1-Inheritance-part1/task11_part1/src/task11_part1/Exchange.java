@@ -12,6 +12,8 @@ package task11_part1;
  * Day 22/08/2016
  * Version 1
  * class for creating Exchange
+ * input: Id, Date exchange, unit price, quality
+ * output show information 
  */
 public class Exchange {
     String noExchage;
@@ -66,6 +68,7 @@ public class Exchange {
         sum = number * unprice;
         return sum;
     }
+    // show information Exchage
     public String showInforExhange() {
         String s = "Type No.:" +noExchage  + " -- " + "Day Exchange:" + dateEx + " -- " + "unprice:" + unPrice + " -- "
                 + "Number:" + Number + " -- ";

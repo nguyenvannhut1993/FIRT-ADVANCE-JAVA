@@ -11,6 +11,8 @@ package task10_part1;
  * Day 22/08/2016
  * Version 1
  * class for Creating Teacher class
+ * input: classLeader, coeffSalary, grant
+ * output show information teacher
  */
 public class Teacher extends Human {
 

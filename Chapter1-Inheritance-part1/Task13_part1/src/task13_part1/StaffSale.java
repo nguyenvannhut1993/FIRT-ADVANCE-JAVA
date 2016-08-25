@@ -47,6 +47,7 @@ public class StaffSale extends Staff{
         double L = salarySale *ratioSale;
         return L;
     }
+    // show information
     public String showInfoSale(Salary T)
     {
         String s = "Name: "+names +" -- "+  "Number person based on: "+numberName+"\n"+

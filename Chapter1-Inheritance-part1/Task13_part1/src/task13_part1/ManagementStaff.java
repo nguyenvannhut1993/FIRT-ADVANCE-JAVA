@@ -11,6 +11,8 @@ package task13_part1;
  * Day 24/08/2016
  * Version 1
  * Class be used for managing staff by create array to save
+ * input array staff products and array staff sale
+ * output add staff, calculate salary
  */
 public class ManagementStaff {
 
@@ -40,7 +42,7 @@ public class ManagementStaff {
     public void setB(StaffSale[] B) {
         this.B = B;
     }
-
+    // add products
     public boolean addProduct(StaffProduct T) {
         for (int i = 0; i < A.length; i++) {
             if (A[i] == null) {
@@ -50,7 +52,7 @@ public class ManagementStaff {
         }
         return false;
     }
-
+    //add sale staff
     public boolean addSale(StaffSale T) {
         for (int i = 0; i < B.length; i++) {
             if (B[i] == null) {
@@ -60,7 +62,7 @@ public class ManagementStaff {
         }
         return false;
     }
-
+    // show information staff products
     public void showStaffProduct(Salary T) {
         for (StaffProduct L : A) {
             if (L != null) {
@@ -68,7 +70,7 @@ public class ManagementStaff {
             }
         }
     }
-
+    // show information staff sale
     public void showStaffSale(Salary T) {
         for (StaffSale L : B) {
             if (L != null) {

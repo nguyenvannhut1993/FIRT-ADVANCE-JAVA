@@ -7,7 +7,11 @@ package task13_part1;
 
 /**
  *
- * @author Nguyen Van Nhut Salary class version 1 Day : 19/08/2016 input : Staff
+ * @author Nguyen Van Nhut 
+ * Salary class 
+ * version 1 
+ * Day : 19/08/2016 
+ * input : Staff
  * output: return Staff object
  */
 public class Salary {
@@ -48,24 +52,24 @@ public class Salary {
     public void setStaffSale(StaffSale staffSale) {
         this.staffSale = staffSale;
     }
-    
+    // calculate income
     public double inComeProduct(StaffProduct T) {
         final double basicSalary = 1260000;
         double inC = staff.coefficientsSalary * basicSalary + T.calSalaryProduct();
         return inC;
     }
-
+    // calculate income
     public double inComeSale(StaffSale T) {
         final double basicSalary = 1260000;
         double inC = staff.coefficientsSalary * basicSalary + T.calSalarySale();
         return inC;
     }
-
+    // calculate tax
     public double taxSalaryProduct(StaffProduct T) {
         double taxSa = inComeProduct(T) - 9000000 - (staff.numberName * 3600000);
         return taxSa;
     }
-    
+    // calculate tax person
     public double taxpersonProduct(StaffProduct T) {
         double taxSa = 0d;
         final double value1 = 5000000;
@@ -91,17 +95,17 @@ public class Salary {
         }
         return taxSa;
     }
-    
+    // caculate natural salary
     public double naturalSalaty(StaffProduct T) {
         double natural = (taxSalaryProduct(T) - taxpersonProduct(T));
         return natural;
     }
-
+    // caculate tax salary
     public double taxSalarySale(StaffSale T) {
         double taxSa = inComeSale(T) - 9000000 - (staff.numberName * 3600000);
         return taxSa;
     }
-    
+    // caculate tax person 
     public double taxpersonSale(StaffSale T) {
         double taxSa = 0d;
         final double value1 = 5000000;
@@ -127,7 +131,7 @@ public class Salary {
         }
         return taxSa;
     }
-    
+    // calculate natural salary
     public double naturalSalatySale(StaffSale T) {
         double natural = (taxSalarySale(T) - taxpersonSale(T));
         return natural;

@@ -11,6 +11,8 @@ package task11_part1;
  * Day 22/08/2016
  * Version 1
  * class for creating Exchange Gold price
+ * input tyGold
+ * output: Show tyGold
  */
 public class ExGold extends Exchange{
     String typeGold;

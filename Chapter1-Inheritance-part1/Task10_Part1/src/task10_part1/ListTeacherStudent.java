@@ -11,8 +11,10 @@ import java.io.InputStreamReader;
 
 /**
  *
- * @author Nguyen Van Nhut Day 22/08/2016 Version 1 class for Add Student and
- * Add Teacher
+ * @author Nguyen Van Nhut 
+ * Day 22/08/2016 
+ * Version 1 
+ * class for Add Student,Add Teacher add input all information of student and teacher 
  *
  */
 public class ListTeacherStudent extends Student {
@@ -57,7 +59,6 @@ public class ListTeacherStudent extends Student {
     }
 
     // input inforamation Teacher
-
     public Teacher inTeacher(Human C) throws IOException {
         try {
             BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
@@ -136,23 +137,26 @@ public class ListTeacherStudent extends Student {
         }
     }
     // Averanges 
-    public void AverangeStudent() {
+    public double AverangeStudent() {
         double Av = 0;
         for (int i = 0; i < B.length; i++) {
             if (B[i] != null) {
                 Av = B[i].calAverage(B[i].corePart1, B[i].corePart2);
             }
         }
+       
         System.out.println("Avange Student:" + Av);
+        return Av;
     }
     // calculate salary
-    public void calSalarys() {
+    public double calSalarys() {
         double Avc = 0;
         for (int i = 0; i < A.length; i++) {
             if (A[i] != null) {
                 Avc = A[i].salaryTeacher(A[i].coeffSalary, A[i].grant);
             }
         }
-        System.out.println("Avange Student:" + Avc);
+        System.out.println("Avange Student:" + String.format("%.2f", Avc));
+        return Avc;
     }
 }

@@ -11,6 +11,8 @@ package task10_part1;
  * Day 22/08/2016
  * Version 1
  * class for Creating Student class
+ * input: Classs, corePart1, corePart2
+ * output: show information Student
  */
 public class Student extends Human {
 

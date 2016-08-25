@@ -11,7 +11,10 @@ import java.io.InputStreamReader;
 
 /**
  *
- * @author hv
+ * @author Nguyen Van Nhut 
+ * Main staff class 
+ * version 1 
+ * Day : 19/08/2016 
  */
 public class StaffMain {
 

@@ -11,6 +11,8 @@ package task11_part1;
  * Day 22/08/2016
  * Version 1
  * class for creating Exchange foreign price
+ * input type Money, type of exchange
+ * output show information
  */
 public class ForeignExchange extends Exchange{
     String typeMoney;

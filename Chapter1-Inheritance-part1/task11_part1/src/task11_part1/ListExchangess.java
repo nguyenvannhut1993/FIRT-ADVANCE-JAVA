@@ -15,6 +15,8 @@ import java.io.InputStreamReader;
  * Day 22/08/2016
  * Version 1
  * class for creating list class
+ * input list Gold, ForeignExchange
+ * output add list and calculate price, fee
  */
 public class ListExchangess {
 
@@ -44,7 +46,7 @@ public class ListExchangess {
     public void setB(ForeignExchange[] B) {
         this.B = B;
     }
-
+    // input Gold
     public ExGold inGold(Exchange C) throws IOException {
         try {
             BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
@@ -57,7 +59,7 @@ public class ListExchangess {
         }
         return null;
     }
-
+    // input exchange Money
     public ForeignExchange inExMoney(Exchange C) throws IOException {
         try {
             BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
@@ -107,7 +109,7 @@ public class ListExchangess {
     public void sumFogin() {
         System.out.println("Avange exchange money:" + (calFogins()));
     }
-
+    // calculate Gold Price
     public void calGold() {
         double Avc = 0;
         for (int i = 0; i < A.length; i++) {

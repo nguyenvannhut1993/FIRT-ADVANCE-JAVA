@@ -11,6 +11,8 @@ package task10_part1;
  * Day 22/08/2016
  * Version 1
  * class for Creating Human class
+ * input name,Birthday, Address, phoneNumber
+ * output : show information
  */
 public class Human {
 

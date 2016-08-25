@@ -7,7 +7,12 @@ package task13_part1;
 
 /**
  *
- * @author hv
+ * @author Nguyen Van Nhut 
+ * Salary class 
+ * version 1 
+ * Day : 19/08/2016 
+ * input : name, number staff
+ * output: show information
  */
 public class Staff {
 

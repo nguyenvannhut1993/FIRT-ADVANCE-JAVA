@@ -11,6 +11,8 @@ package task13_part1;
  * Day 24/08/2016
  * Version 1
  * class for creating a staff product  
+ * input number product
+ * output show information
  */
 public class StaffProduct extends Staff {
 
@@ -40,7 +42,7 @@ public class StaffProduct extends Staff {
         double L = numberProduct * 0.05;
         return L;
     }
-
+    // show information
     public String showInfoProduct(Salary T) {
         String s = "Name: " + names + " -- " + "Number person based on: " + numberName + " \n"
                 + "coefficientsSalary: " + coefficientsSalary + " -- " + "NumberProduct: " + numberProduct + "\n" + "Salary: " + T.inComeProduct(this) + " -- "
