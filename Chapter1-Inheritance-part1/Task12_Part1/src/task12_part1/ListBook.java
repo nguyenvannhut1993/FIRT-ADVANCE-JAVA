@@ -99,7 +99,7 @@ public class ListBook {
         return false;
     }
     // caculate money for text book
-    public void calTexBook(TexBook C) {
+    public double calTexBook(TexBook C) {
         double Avc = 0, Avc1 = 0, Avc2 = 0;
         for (int i = 0; i < A.length; i++) {
             if (A[i] != null) {
@@ -113,6 +113,7 @@ public class ListBook {
         }
         Avc = Avc1 + Avc2;
         System.out.println("sum money texbook :" + Avc);
+       return Avc;
     }
     // calculate money for Reference Book
     public void calReferenceBook() {
