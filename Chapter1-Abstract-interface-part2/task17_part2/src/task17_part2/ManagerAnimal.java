@@ -7,7 +7,10 @@ package task17_part2;
 
 /**
  *
- * @author Nguyen Van Nhut
+ * @author nguyen van nhut
+ * Day 23/08/2016
+ * version 1
+ * class for building managementAnimal class
  */
 public class ManagerAnimal {
 
@@ -57,7 +60,7 @@ public class ManagerAnimal {
     public void setD(Lion[] D) {
         this.D = D;
     }
-
+    // add fish animal
     public boolean addAnimalFish(Fish C) {
         for (int i = 0; i < A.length; i++) {
             if (A[i] == null) {
@@ -68,7 +71,7 @@ public class ManagerAnimal {
         }
         return false;
     }
-
+    // add Bird animal
     public boolean addAnimalBird(Bird C) {
         for (int i = 0; i < B.length; i++) {
             if (B[i] == null) {
@@ -79,7 +82,7 @@ public class ManagerAnimal {
         }
         return false;
     }
-
+    // add boa animal
     public boolean addAnimalBoa(Boa B) {
         for (int i = 0; i < C.length; i++) {
             if (C[i] == null) {
@@ -90,7 +93,7 @@ public class ManagerAnimal {
         }
         return false;
     }
-
+    // add Lion animal
     public boolean addAnimalLion(Lion C) {
         for (int i = 0; i < D.length; i++) {
             if (D[i] == null) {
@@ -101,7 +104,7 @@ public class ManagerAnimal {
         }
         return false;
     }
-
+    // show information
     void showFish() {
         for (Fish B : A) {
             if (B != null) {
@@ -109,7 +112,7 @@ public class ManagerAnimal {
             }
         }
     }
-
+    // show information
     void showBird() {
         for (Bird A : B) {
             if (A != null) {
@@ -117,7 +120,7 @@ public class ManagerAnimal {
             }
         }
     }
-
+    // show information
     void showBoa() {
         for (Boa A : C) {
             if (A != null) {
@@ -125,7 +128,7 @@ public class ManagerAnimal {
             }
         }
     }
-
+    // show information
     void showLion() {
         for (Lion A : D) {
             if (A != null) {

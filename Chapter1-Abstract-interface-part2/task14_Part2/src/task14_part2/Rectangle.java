@@ -7,7 +7,12 @@ package task14_part2;
 
 /**
  *
- * @author hv
+ * @author Nguyen Van Nhut
+ * version 1
+ * Day 23/08/2016
+ * class for building rectangle class
+ * input wight, lengh;
+ * output show  rectangle area and  perimeter
  */
 public class Rectangle extends Shape{
     public double Wight;
@@ -28,11 +33,13 @@ public class Rectangle extends Shape{
     public void setLen(double len) {
         this.len = len;
     }
+    //calculate perimeter
     @Override
     public double perimeter()
     {
         return (len + Wight)*2;
     }
+    // calculate area
     @Override
     public double area()
     {

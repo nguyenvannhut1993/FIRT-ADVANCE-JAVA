@@ -11,6 +11,8 @@ package task15_part2;
  * Day 23/08/2016
  * version 1
  * class for creating StringedInstrument class
+ * input number wire
+ * output show information 
  */
 public class StringedInstrument extends Instrument{
     int nunberWire;
@@ -42,11 +44,13 @@ public class StringedInstrument extends Instrument{
     public void setPublisher(String publisher) {
         this.publisher = publisher;
     }
+    // return instrument name and number wire
     @Override
     public String plays()
     {
         return nameInstru +" -- "+ nunberWire;
     }
+    // show information
     public void showInfo()
     {
         System.out.println(" music information:"+plays());

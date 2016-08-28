@@ -7,7 +7,10 @@ package task17_part2;
 
 /**
  *
- * @author Nguyen Van Nhut
+ * @author nguyen van nhut
+ * Day 23/08/2016
+ * version 1
+ * class for building bird class
  */
 public class Bird extends Animals implements IFlying, INesting, IGrowing, IRuning {
 
@@ -37,7 +40,7 @@ public class Bird extends Animals implements IFlying, INesting, IGrowing, IRunin
     public void Nesting() {
         System.out.println("Live in Nest");
     }
-
+    // show information
     public void outputInfo() {
         System.out.println("Name Animail : " + Name + " -- " + "Food: " + Food);
         Flying();

@@ -8,6 +8,7 @@ package task16_part2;
 /**
  *
  * @author Nguyen Van Nhut
+ * 
  */
 public class Car extends Transport implements InterfaceSpeed, FuelConsumption {
 
@@ -69,17 +70,17 @@ public class Car extends Transport implements InterfaceSpeed, FuelConsumption {
     public void setManfacturer(String Manfacturer) {
         this.Manfacturer = Manfacturer;
     }
-
+    // calculate speed
     @Override
     public double getSpeed(double distance, double times) {
         return (distance / times);
     }
-
+    // calculate fuel
     @Override
     public double fuelConsum(double distance, double numberLiter) {
         return (distance / numberLiter);
     }
-
+    // show information
     public String showInfoCar() {
         String s = " liceseID:" + LicenseID + " -- " + " owner:" + Owner + " -- " + " Color:" + Color + " -- "
                 + " Manfacturer:" + Manfacturer + " -- " + "Gear:" + gear + " -- " + "Type car:" + typeCar;

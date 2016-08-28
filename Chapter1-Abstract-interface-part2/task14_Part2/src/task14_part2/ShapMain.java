@@ -11,7 +11,11 @@ import java.io.InputStreamReader;
 
 /**
  *
- * @author Nguyen Van Nhut
+ * author Nguyen Van Nhut
+ * version 1
+ * Day 23/08/2016
+ * class for building main class
+ * 
  */
 public class ShapMain {
 
@@ -19,6 +23,8 @@ public class ShapMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {
+        try
+        {
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter type shape (1)square (2)rectangle (3)circle");
         int c = Integer.parseInt(input.readLine());
@@ -47,8 +53,7 @@ public class ShapMain {
             case 3: {
                 System.out.println("Enter radius circle:");
                 double r = Double.parseDouble(input.readLine());
-                Circle ci = new Circle();
-                ci.setR(r);
+                Circle ci = new Circle(r);
                 System.out.println("perimeter of circle:" + ci.perimeter());
                 System.out.println("Area of circle:" + ci.area());
                 break;
@@ -56,6 +61,11 @@ public class ShapMain {
             default:
                 System.out.println("please choise 1 or 2 or 3");
 
+        }
+        }
+        catch(NumberFormatException e)
+        {
+            System.out.println("Error:"+e.getMessage());
         }
     }
 

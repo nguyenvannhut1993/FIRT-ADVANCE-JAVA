@@ -7,7 +7,11 @@ package task17_part2;
 
 /**
  *
- * @author Nguyen Van Nhut
+ * @author nguyen van nhut
+ * Day 23/08/2016
+ * version 1
+ * class for building Animals class
+ * input Name, Food
  */
 public class Animals {
     String Name;

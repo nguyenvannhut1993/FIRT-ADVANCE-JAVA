@@ -11,6 +11,8 @@ package task15_part2;
  * Day 23/08/2016
  * version 1
  * class for creating class NonStringedInstrument
+ * input usage
+ * output playing instrument
  */
 public class NonStringedInstrument extends Instrument {
 
@@ -46,12 +48,12 @@ public class NonStringedInstrument extends Instrument {
     public void setPublisher(String publisher) {
         this.publisher = publisher;
     }
-
+    // show usage intrument
     @Override
     public String plays() {
         return uage;
     }
-
+    // show information
     public void showInfor() {
         System.out.println(" music information:" + plays());
     }

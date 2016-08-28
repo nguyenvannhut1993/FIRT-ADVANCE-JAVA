@@ -7,7 +7,10 @@ package task15_part2;
 
 /**
  *
- * @author Nguyen Van Nhut
+ *@author nguyen van nhut
+ * Day 23/08/2016
+ * version 1
+ * Class for building abstract  
  */
 public abstract class Instrument {
     String nameInstru;
