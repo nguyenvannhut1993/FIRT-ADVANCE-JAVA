@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Employments>
+    <Employment>
+        <idEm>1</idEm>
+        <nameEm>nhut</nameEm>
+        <sex>nam</sex>
+        <dayBirth>12/08/1993</dayBirth>
+        <salary>1.0E7</salary>
+        <address>31/5 duong 160</address>
+        <idunit>2</idunit>
+    </Employment>
+    <Employment>
+        <idEm>1a</idEm>
+        <nameEm>van</nameEm>
+        <sex>nu</sex>
+        <dayBirth>12/08/2016</dayBirth>
+        <salary>50000.0</salary>
+        <address>31/4 la xuan oai</address>
+        <idunit>1</idunit>
+    </Employment>
+    <Employment>
+        <idEm>3</idEm>
+        <nameEm>khang</nameEm>
+        <sex>nam</sex>
+        <dayBirth>15/09</dayBirth>
+        <salary>20000.0</salary>
+        <address>102 la xuan oai</address>
+        <idunit>4</idunit>
+    </Employment>
+<Employment><idEm>4</idEm><nameEm>khoan</nameEm><sex>nu</sex><dayBirth>6/07</dayBirth><salary>100000.0</salary><address>120 le minh xuan</address><idunit>5</idunit></Employment></Employments>
