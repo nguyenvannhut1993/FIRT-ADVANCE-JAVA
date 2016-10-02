@@ -1,0 +1,41 @@
+2016-09-27 09:58:56 ERROR CdController:75 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'cdstore'
+2016-09-27 10:23:16 DEBUG CdController:85 - started search
+2016-09-27 10:25:40 DEBUG search cd:86 - started search
+2016-09-27 11:05:08 DEBUG search cd:86 - started search
+2016-09-27 12:58:55 INFO  search cd:38 - all list:[id: 2 - name: CD 1 - singer: My Tam - 15 - 15000.0, id: 3 - name: CD 2 - singer: Dan Truong - 12 - 12000.0, id: 4 - name: That Tinh - singer: Le Quyen - 10 - 20000.0]
+2016-09-27 12:59:53 INFO  ManagementCDMain:38 - all list:[id: 2 - name: CD 1 - singer: My Tam - 15 - 15000.0, id: 3 - name: CD 2 - singer: Dan Truong - 12 - 12000.0, id: 4 - name: That Tinh - singer: Le Quyen - 10 - 20000.0]
+2016-09-27 13:07:02 INFO  CdController:114 - info update:UPDATE Cd SET numbersongs = 16,price = 16000.0WHERE id =2
+2016-09-27 13:13:25 INFO  CdController:139 - info write cd to file:id: 2 - name: CD 1 - singer: My Tam - 16 - 16000.0
+2016-09-27 13:13:25 INFO  CdController:139 - info write cd to file:id: 3 - name: CD 2 - singer: Dan Truong - 12 - 12000.0
+2016-09-27 13:13:25 INFO  CdController:139 - info write cd to file:id: 4 - name: That Tinh - singer: Le Quyen - 10 - 20000.0
+2016-09-28 09:24:15 ERROR CdController:76 - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2016-09-28 09:24:15 INFO  ManagementCDMain:38 - all list:[]
+2016-09-28 10:55:34 ERROR CdController:76 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'cdstore'
+2016-09-28 10:55:34 INFO  ManagementCDMain:38 - all list:[]
+2016-09-28 10:56:38 INFO  ManagementCDMain:38 - all list:[id: 2 - name: CD 1 - singer: My Tam - 15 - 15000.0, id: 3 - name: CD 2 - singer: Dan Truong - 12 - 12000.0, id: 4 - name: That Tinh - singer: Le Quyen - 10 - 20000.0]
+2016-09-28 11:07:34 INFO  ManagementCDMain:38 - all list:[id: 2 - name: CD 1 - singer: My Tam - 15 - 15000.0, id: 3 - name: CD 2 - singer: Dan Truong - 12 - 12000.0, id: 4 - name: That Tinh - singer: Le Quyen - 10 - 20000.0]
+2016-09-28 11:19:01 INFO  ManagementCDMain:38 - all list:[id: 2 - name: CD 1 - singer: My Tam - 15 - 15000.0, id: 3 - name: CD 2 - singer: Dan Truong - 12 - 12000.0, id: 4 - name: That Tinh - singer: Le Quyen - 10 - 20000.0]
+2016-09-28 13:18:23 ERROR ManagementCDMain:58 - java.lang.NumberFormatException: For input string: "hu"
+2016-09-28 16:13:39 INFO  ManagementCDMain:38 - all list:[id: 2 - name: CD 1 - singer: My Tam - 15 - 15000.0, id: 3 - name: CD 2 - singer: Dan Truong - 12 - 12000.0, id: 4 - name: That Tinh - singer: Le Quyen - 10 - 20000.0]
+2016-10-01 11:39:21 ERROR CdController:76 - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2016-10-01 11:39:22 INFO  ManagementCDMain:38 - all list:[]
+2016-10-01 12:45:28 ERROR CdController:76 - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2016-10-01 12:45:29 INFO  ManagementCDMain:38 - all list:[]
+2016-10-01 12:46:25 INFO  ManagementCDMain:38 - all list:[id: 2 - name: CD 1 - singer: My Tam - 15 - 15000.0, id: 3 - name: CD 2 - singer: Dan Truong - 12 - 12000.0, id: 4 - name: That Tinh - singer: Le Quyen - 10 - 20000.0, id: 5 - name: Nhac Tre - singer: Dam Vinh Hung - 20 - 30000.0]
+2016-10-01 12:48:53 INFO  ManagementCDMain:38 - all list:[id: 2 - name: CD 1 - singer: My Tam - 15 - 15000.0, id: 3 - name: CD 2 - singer: Dan Truong - 12 - 12000.0, id: 4 - name: That Tinh - singer: Le Quyen - 10 - 20000.0, id: 5 - name: Nhac Tre - singer: Dam Vinh Hung - 20 - 30000.0]
+2016-10-01 13:16:50 DEBUG ManagementCDMain:34 - Start show infor all list
+2016-10-01 13:16:50 INFO  ManagementCDMain:39 - all list:[id: 2 - name: CD 1 - singer: My Tam - 15 - 15000.0, id: 3 - name: CD 2 - singer: Dan Truong - 12 - 12000.0, id: 4 - name: That Tinh - singer: Le Quyen - 10 - 20000.0, id: 5 - name: Nhac Tre - singer: Dam Vinh Hung - 20 - 30000.0]
+2016-10-01 13:30:03 DEBUG ManagementCDMain:34 - Start show infor all list
+2016-10-01 13:30:04 INFO  ManagementCDMain:39 - Stop show infor list
+2016-10-01 13:30:04 INFO  ManagementCDMain:40 - all list:[id: 2 - name: CD 1 - singer: My Tam - 15 - 15000.0, id: 3 - name: CD 2 - singer: Dan Truong - 12 - 12000.0, id: 4 - name: That Tinh - singer: Le Quyen - 10 - 20000.0, id: 5 - name: Nhac Tre - singer: Dam Vinh Hung - 20 - 30000.0]
+2016-10-01 13:47:56 DEBUG ManagementCDMain:34 - Start show infor all list
+2016-10-01 13:47:56 INFO  ManagementCDMain:39 - Stop show infor list
+2016-10-01 13:47:56 INFO  ManagementCDMain:40 - all list:[id: 2 - name: CD 1 - singer: My Tam - 15 - 15000.0, id: 3 - name: CD 2 - singer: Dan Truong - 12 - 12000.0, id: 4 - name: That Tinh - singer: Le Quyen - 10 - 20000.0, id: 5 - name: Nhac Tre - singer: Dam Vinh Hung - 20 - 30000.0]
+2016-10-01 14:31:12 INFO  ManagementCDMain:46 - Start add cd
+2016-10-01 14:31:27 ERROR ManagementCDMain:62 - java.lang.NumberFormatException: For input string: "b�igdgdg"
